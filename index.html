@@ -1,53 +1,181 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Cyber Unganidzo</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="icon" type="image/png" href="/img/logo.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <title>Cyber Unganidzo</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-    <div class="scrollblock block-title">
-        <img src="img/logo.png" alt="" width="45%" />
-        <h1>Cyber Unganidzo</h1>
-        <p>Aplikasi yang hadir untuk membantu kalian mempelajari<br>tentang dunia cyber</p>
 
-        <div class="scrollblock block-create">
-            <h2>Fitur</h2>
-            <p>
-                Theory ✔<br />
-                URL Downloader <br />
-                View Source Code Web <br />
-                Code Editor ✔<br />
-                Kumpulan Script ✔<br />
-                EBook <br />
-            </p>
-        </div>
-        <a name="branching"></a>
-        <div class="scrollblock block-branching">
-            <h2>Device Requirements</h2>
-            <p>
-                Rekomendasi android minimun versi 4.<br>
-                Note : Mungkin ada beberapa fitur yang tidak berfungsi untuk android versi 8+
-            </p>
-        </div>
-        <a name="trees"></a>
-        <div class="scrollblock block-setup" style="background-color: brown;">
-            <h2 style="color: cornsilk;">Download</h2>
-            <p>
-                <a
-                    href="https://github.com/RepSadewa/Cyber_Unganidzo/releases/download/aplikasi1.1beta/Cyber.Unganidzo.v1.1.beta.apk">New
-                    Version 1.1beta</a>
-            </p>
-        </div>
+  <header id="header_wrapper">
+    <div class="container">
+      <div class="header_box">
+        <div class="logo"><a href="#"><img width="100%" src="img/logo.png" alt="logo"></a></div>
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="navbar-header">
+            <center><button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
+                data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span> </button></center>
+          </div>
+          <div id="main-nav" class="collapse navbar-collapse navStyle">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+              <li><a href="#aboutUs" class="scroll-link">Spesifikasi</a></li>
+              <li><a href="#service" class="scroll-link">FITUR</a></li>
+              <li><a href="#contact" class="scroll-link">My Sosmed</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
+  </header>
+
+  <section id="hero_section" class="top_cont_outer">
+    <div class="hero_wrapper">
+      <div class="container">
+        <div class="hero_section">
+          <div class="row">
+            <div class="col-lg-5 col-sm-7">
+              <div class="top_left_cont zoomIn wow animated">
+                <h2>Aplikasi Mobile <strong>Cyber Unganidzo</strong></h2>
+                <p>Hai, saya Sadewa. Aplikasi ini adalah aplikasi yang saya buat untuk mengedukasi tentang dunisa cyber
+                  secara gratis. Edukasi yang termasuk seperti Hacking, Cyber Security, Pemrograman, Teknologi, dan
+                  serta dilengkapi dengan tools multimedia.</p>
+                <a href="#service" class="read_more2">Read more</a>
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-5">
+              <img src="img/MOCKUP.png" class="zoomIn wow animated" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aboutUs">
+    <div class="inner_wrapper">
+      <div class="container">
+        <h2>Spesifikasi</h2>
+        <div class="inner_section">
+          <div class="row">
+            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/logoU.png"
+                class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+            <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+              <div class=" delay-01s animated fadeInDown wow animated">
+                <h3>Cyber Unganidzo</h3><br />
+                <p>App Name : Cyber Unganidzo</p> <br />
+                <p>Version : 1.1beta</p><br />
+                <p>Name APK : dev.esone.s1</p><br />
+                <p>Minimum Android : 5 (Lolipop)</p><br />
+                <p>Minimun/Target SDK : 21/30</p><br />
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="service">
+    <div class="container">
+      <h2>Fitur Menu</h2>
+      <div class="service_wrapper">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service_block">
+              <img src="img/theory.png">
+              <h3 class="animated fadeInUp wow">Theory</h3>
+              <p class="animated fadeInDown wow">Berisi tentang sebuah teori atau materi tentang sebuah ilmu atau
+                pemahaman</p>
+            </div>
+          </div>
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <img src="img/script.png">
+              <h3 class="animated fadeInUp wow">Script</h3>
+              <p class="animated fadeInDown wow">Kumpulan script yang dapat digunakan di terminal seperti kali linux,
+                termux, dll.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 borderLeft">
+            <div class="service_block">
+              <img src="img/ebook.png">
+              <h3 class="animated fadeInUp wow">E-Book</h3>
+              <p class="animated fadeInDown wow">Kumpulan buku digital seputar dunia cyber yang bisa didownload secara
+                gratis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row borderTop">
+          <div class="col-lg-4 mrgTop">
+            <div class="service_block">
+              <img src="img/tools.png">
+              <h3 class="animated fadeInUp wow">Tools</h3>
+              <p class="animated fadeInDown wow">Terdapatbeberapa alat multimedia yang bisa digunakan secara gratis.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 borderLeft mrgTop">
+            <div class="service_block">
+              <img src="img/codeeditor.png">
+              <h3 class="animated fadeInUp wow">Code Editor</h3>
+              <p class="animated fadeInDown wow">Tempat kalian ngoding yang dilengkangpi dengan highlight syntax.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 borderLeft mrgTop">
+            <div class="service_block">
+              <img src="img/ostest.png">
+              <h3 class="animated fadeInUp wow">System Test</h3>
+              <p class="animated fadeInDown wow">Mau nyobain Kali linux ?, Ubuntu ?, atau os lainnya ?, Gas aja nih
+                cobain fitur System Test ini di Cyber Unganidzo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page_section" id="contact">
+    <section class="page_section" id="clients">
+      <h2>MY SOSMED</h2>
+
+      <div class="contact">
+        <div class="client_logos">
+          <div class="container">
+            <ul class="fadeInRight animated wow">
+              <li><a href="https://wa.me/6281266638780"><img width="40%" src="img/whatsapp.png" alt=""></a></li>
+              <li><a href="https://instagram.com/esone.s1"><img width="40%" src="img/instagram.png" alt=""></a></li>
+              <li><a href="https://github.com/Repsadewa/"><img width="40%" src="img/github.png" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="footer_bottom"><span color="#ffffff">Copyright © 2022, Template by <a href="#contact"
+                class="scroll-link">Esone</a>. </span> </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+  <script type="text/javascript" src="js/jquery.nav.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 
 </html>
