@@ -1,182 +1,303 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <title>Cyber Unganidzo</title>
-  <link rel="icon" href="favicon.png" type="image/png">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
-  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AniJS, Declarative handling library for CSS animations">
+    <link rel="shortcut icon" type="assets/image/x-icon" href="assets/img/favicon.png">
+    <title>Aplikasi Cyber Unganidzo</title>
+
+    <!-- Pure CSS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure.css">
+    <link rel="stylesheet" href="bower_components/pure-extras/css/pure-extras.css">
+
+    <!-- Pure CSS Custom layout -->
+    <link rel="stylesheet" href="assets/css/main-grid.css">
+    <link rel="stylesheet" href="assets/css/layouts/marketing.css">
+
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+    <link rel="stylesheet" href="lib/flat-icon/flaticon.css">
+
+    <!-- Syntax Highlight -->
+    <link rel="stylesheet" href="lib/highlight/markdown-highligth.css">
+
+    <!-- Animated CSS Animation Library -->
+    <link rel="stylesheet" href="lib/anicollection/anicollection.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/menu-collapse.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/notification-demo.css">
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W8BCLT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W8BCLT');</script>
+    <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
-
-  <header id="header_wrapper">
-    <div class="container">
-      <div class="header_box">
-        <div class="logo"><a href="#"><img width="300" src="img/logo.png" alt="logo"></a></div>
-        <nav class="navbar navbar-inverse" role="navigation">
-          <div class="navbar-header">
-            <center><button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
-                data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
-                <span class="icon-bar"></span> <span class="icon-bar"></span> </button></center>
-          </div>
-          <div id="main-nav" class="collapse navbar-collapse navStyle">
-            <ul class="nav navbar-nav" id="mainNav">
-              <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-              <li><a href="#aboutUs" class="scroll-link">Spesifikasi</a></li>
-              <li><a href="#aboutUs" class="scroll-link">Download</a></li>
-              <li><a href="#service" class="scroll-link">FITUR</a></li>
-              <li><a href="#contact" class="scroll-link">My Sosmed</a></li>
+    <div id="welcome" class="header">
+        <div class="navbar home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed" data-anijs="if: animationend, on: .container-box, to: ul li, do: bounce">
+            <a class="pure-menu-heading" href="#"><img src="assets/img/favicon.png" width="20" height="20"/> Cyber Unganidzo</a>
+            <a class="collapse-toggle" href="#" data-anijs="if: click, do: bounceIn, to: .nav-list">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="menu" class="nav-list collapse">
+                <li><a href="#fitur">Fitur</a>
+                </li>
+                <li><a href="#spesifikasi">Spesifikasi</a>
+                </li>
+                <li><a href="#virusscan">Aman</a>
+                </li>
+                <li><a href="#download">Download</a>
+                </li>
+                <li><a href="#donate">Donasi</a>
+                </li>
             </ul>
-          </div>
-        </nav>
-      </div>
+        </div>
     </div>
-  </header>
-
-  <section id="hero_section" class="top_cont_outer">
-    <div class="hero_wrapper">
-      <div class="container">
-        <div class="hero_section">
-          <div class="row">
-            <div class="col-lg-5 col-sm-7">
-              <div class="top_left_cont zoomIn wow animated">
-                <h2>Aplikasi Mobile <strong>Cyber Unganidzo</strong></h2>
-                <p>Hai, saya Sadewa. Aplikasi ini adalah aplikasi yang saya buat untuk mengedukasi tentang dunisa cyber
-                  secara gratis. Edukasi yang termasuk seperti Hacking, Cyber Security, Pemrograman, Teknologi, dan
-                  serta dilengkapi dengan tools multimedia.</p>
-                <a href="#service" class="read_more2">Read more</a>
+    <div class="splash-container">
+        <div class="splash">
+            <h3 class="splash-head"><strong>Cyber Unganidzo</strong></h3>
+                <p class="splash-subhead">Aplikasi android gratis yang dibuat dengan tujuan mengedukasi seputar Dunia Cyber dan Teknologi.</p>
               </div>
+            <div>
+              <img src="assets/img/MOCKUP.png"/>
             </div>
-            <div class="col-lg-7 col-sm-5">
-              <img src="img/MOCKUP.png" class="zoomIn wow animated" alt="" />
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
 
-  <section id="aboutUs">
-    <div class="inner_wrapper">
-      <div class="container">
-        <h2>Spesifikasi</h2>
-        <div class="inner_section">
-          <div class="row">
-            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/logoU.png"
-                class="img-circle delay-03s animated wow zoomIn" alt=""></div>
-            <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
-              <div class=" delay-01s animated fadeInDown wow animated">
-                <h3>Cyber Unganidzo</h3><br />
-                <p>App Name : Cyber Unganidzo</p> <br />
-                <p>Version : 1.1Final</p><br />
-                <p>Name APK : dev.esone.s1</p><br />
-                <p>Minimum Android : 5 (Lolipop)</p><br />
-                <p>Minimun/Target SDK : 21/30</p><br />
-              </div>
-            <div class="work_bottom"><a href="https://github.com/RepSadewa/Cyber_Unganidzo/releases/download/final1.1/Cyber.Unganidzo.1.1Final.apk" class="contact_btn">Download Latest</a> </div>   
-            </div>
-
-
-          </div>
+    <div class="content-wrapper">
+        <div id="update" class="content">
+            <img src="assets/img/update.jpg">
         </div>
-      </div>
-  </section>
+        <div id="fitur" class="content">
+            <h2 class="content-head is-center" data-anijs="if: click, do: testingAnim">IN APP</h2>
 
-  <section id="service">
-    <div class="container">
-      <h2>Fitur Menu</h2>
-      <div class="service_wrapper">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="service_block">
-              <img src="img/theory.png">
-              <h3 class="animated fadeInUp wow">Theory</h3>
-              <p class="animated fadeInDown wow">Berisi tentang sebuah teori atau materi tentang sebuah ilmu atau
-                pemahaman</p>
+            <div class="pure-g">
+                <div id="ui-components" class="l-box-lrg container-box pure-u-1 pure-u-med-1-2">
+                    <h3 class="content-subhead"
+                        data-anijs="if:mouseenter, on: #ui-components .l-box, do: pulse animated, to: target">
+                        <i class="fa fa-rocket"></i>
+                        Fitur
+                    </h3>
+                    <div class="pure-g">
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                            <a>
+                                <img class="pure-img" src="assets/img/tutorial.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Tutorial</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                            <a>
+                                <img class="pure-img" src="assets/img/Script.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Script</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/ebook2.png">
+                            </a>
+                            <p style="text-align:center; margin:0">E-Book</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/codeeditor.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Code Editor</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/tools.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Tools</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/onion.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Dark Web Search</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ui-components" class="l-box-lrg container-box pure-u-1 pure-u-med-1-2">
+                    <h3 class="content-subhead"
+                        data-anijs="if:mouseenter, on: #ui-components .l-box, do: pulse animated, to: target">
+                        <i class="fa fa-cutlery"></i>
+                        ALAT
+                    </h3>
+                    <div class="pure-g">
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/shortlink.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Short Link</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/youtube.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Youtube</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/facebook.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Facebook</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/tempmail.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Temp Mail</p>
+                        </div>
+                        <div class="l-box pure-u-1-2 pure-u-med-1-3 pure-u-lrg-1-3">
+                                <img class="pure-img" src="assets/img/tiktok.png">
+                            </a>
+                            <p style="text-align:center; margin:0">Tiktok</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-4 borderLeft">
-            <div class="service_block">
-              <img src="img/script.png">
-              <h3 class="animated fadeInUp wow">Script</h3>
-              <p class="animated fadeInDown wow">Kumpulan script yang dapat digunakan di terminal seperti kali linux,
-                termux, dll.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 borderLeft">
-            <div class="service_block">
-              <img src="img/ebook.png">
-              <h3 class="animated fadeInUp wow">E-Book</h3>
-              <p class="animated fadeInDown wow">Kumpulan buku digital seputar dunia cyber yang bisa didownload secara
-                gratis.</p>
-            </div>
-          </div>
         </div>
-        <div class="row borderTop">
-          <div class="col-lg-4 mrgTop">
-            <div class="service_block">
-              <img src="img/tools.png">
-              <h3 class="animated fadeInUp wow">Tools</h3>
-              <p class="animated fadeInDown wow">Terdapatbeberapa alat multimedia yang bisa digunakan secara gratis.</p>
+        <div id="spesifikasi" class="ribbon l-box-lrg container-box pure-g">
+            <div id="try" class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                <h2 class="content-head content-head-ribbon">Spesifikasi</h2>
+
+                <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                    <div class="pure-u-1-2 pure-u-med-1-5 pure-u-lrg-1-6 small-margin">
+                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                            <span class="anijs-reserved-if anijs-reserved-word">Bahasa</span>
+                        </div>
+                        <div id="corner">
+                            Indonesia
+                        </div>
+                    </div>
+
+                    <div class="pure-u-1-2 pure-u-med-1-5 pure-u-lrg-1-6 small-margin">
+                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                            <span class="anijs-reserved-on anijs-reserved-word">Minimum SDK</span>
+                        </div>
+                        <div id="corner">
+                            API 27 / Android 5
+                        </div>
+                    </div>
+
+                    <div class="pure-u-1-2 pure-u-med-1-5 pure-u-lrg-1-6 small-margin">
+                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                            <span class="anijs-reserved-do anijs-reserved-word">Pemrograman</span>
+                        </div>
+                        <div id="corner">
+                            JAVA
+                        </div>
+                    </div>
+                    <div class="pure-u-1-2 pure-u-med-1-5 pure-u-lrg-1-6 small-margin">
+                        <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                            <span class="anijs-reserved-to anijs-reserved-word">Last Version</span>
+                        </div>
+                        <div id="corner">
+                            1.2
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- </div> -->
+                <div class="pure-u-1-2 pure-u-med-1-6 pure-u-lrg-1-6">
+                    <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                        <span class="anijs-reserved-do anijs-reserved-word"></span>
+                    </div>
+                    <div class="pure-u-1 pure-u-med-1 pure-u-lrg-1">
+                        <a href="#download">
+                        <button id="demotryit" class="pure-button pure-button-primary">DOWNLOAD</button>
+                    </a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-4 borderLeft mrgTop">
-            <div class="service_block">
-              <img src="img/codeeditor.png">
-              <h3 class="animated fadeInUp wow">Code Editor</h3>
-              <p class="animated fadeInDown wow">Tempat kalian ngoding yang dilengkangpi dengan highlight syntax.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 borderLeft mrgTop">
-            <div class="service_block">
-              <img src="img/ostest.png">
-              <h3 class="animated fadeInUp wow">System Test</h3>
-              <p class="animated fadeInDown wow">Mau nyobain Kali linux ?, Ubuntu ?, atau os lainnya ?, Gas aja nih
-                cobain fitur System Test ini di Cyber Unganidzo.</p>
-            </div>
-          </div>
         </div>
-      </div>
+        <div id="virusscan" class="content" >
+            <h2 class="content-head is-center">HASIL SCANNER VIRUS</h2>
+            <div class="section pure-g-r is-center">
+                <div class="center" >
+                    <div class="pure-u-1">
+                        <p>Saya scan android saya yang terinstall aplikasi ini menggunakan scanner virus dari Avast, Malwarebytes, dan Kaspersky. Aplikasi Cyber Unganidzo terbukti aman.<br>
+                        <div id="corner"></div>
+                        <div class="row">
+                            <div class="column">
+                                <img src="assets/img/Avast.jpg" alt="Avast Security" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="assets/img/Malwerbytes.jpg" alt="Malwerbytes" style="width:100%">
+                            </div>
+                            <div class="column">
+                                <img src="assets/img/Kaspersky.jpg" alt="Kaspersky" style="width:100%">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="download" class="content ribbon">
+            <h2 class="content-head is-center content-head-ribbon">DOWNLOAD</h2>
+
+            <div class="section pure-g-r">
+                <div class="center">
+                    <div class="pure-u-1 text-center">
+                        <a class="pure-button" href="https://github.com/anijs/anijs">
+                            Last Version
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <h3 class="content-subhead">
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="donate" class="content" data-anijs="if:mouseover, do:bounce, to: .input-paypal">
+            <h3 class="content-subhead is-center" id="yui_3_5_0_1_1650175758229_558">
+                <a style="text-decoration:underline" href="https://saweria.co/esoneorsadewa" target="_blank" id="yui_3_5_0_1_1650175758229_557">
+                    DONASI
+                    <i class="fa fa-external-link"></i>
+                </a>
+            </h3>
+        </div>
+        <div class="footer l-box is-center">
+            Made with
+            <span class="bounceIn animated infinite">♥</span> by <a href="https://instagram.com/esone.s1">@esone.s1</a>.
+        </div>
+
     </div>
-  </section>
 
-  <section class="page_section" id="contact">
-    <section class="page_section" id="clients">
-      <h2>MY SOSMED</h2>
+    <!-- YUI3 Framework -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yui/3.14.1/yui/yui.js"></script>
 
-      <div class="contact">
-        <div class="client_logos">
-          <div class="container">
-            <ul class="fadeInRight animated wow">
-              <li><a href="https://wa.me/6281266638780"><img width="40%" src="img/whatsapp.png" alt=""></a></li>
-              <li><a href="https://instagram.com/esone.s1"><img width="40%" src="img/instagram.png" alt=""></a></li>
-              <li><a href="https://github.com/Repsadewa/"><img width="40%" src="img/github.png" alt=""></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="container">
-          <div class="footer_bottom"><span color="#ffffff">Copyright © 2022, Template by <a href="#contact"
-                class="scroll-link">Esone</a>. </span> </div>
-        </div>
-      </div>
-    </section>
-  </section>
+    <!-- AniJS Library -->
+    <script src="lib/anijs/anijs.js"></script>
+    <script src="lib/anijs/helpers/dom/anijs-helper-dom.js"></script>
 
-  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-  <script type="text/javascript" src="js/jquery.nav.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="js/jquery.isotope.js"></script>
-  <script type="text/javascript" src="js/wow.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Syntax Highlight -->
+    <script src="lib/highlight/highlight.pack.js"></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
 
+    <!-- App Scripts-->
+    <script src="config/appconfig.js"></script>
+    <script src="script/app.js"></script>
+
+    <!-- Google Analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44521541-4', 'anijs.github.io');
+      ga('send', 'pageview');
+
+    </script>
 </body>
 
 </html>
