@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Download"
+title: "CYNIDZO - Aplikasi"
 permalink: /download/
 author_profile: true
 ---
