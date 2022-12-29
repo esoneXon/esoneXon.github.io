@@ -2,18 +2,3 @@
 main:
   - title: "Download"
     url: /download/ 
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Test"
-    url: /test/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
