@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Download"
+title: "My Project"
 permalink: /download/
 author_profile: true
 ---
