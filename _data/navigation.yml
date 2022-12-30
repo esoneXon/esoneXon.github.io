@@ -2,3 +2,5 @@
 main:
   - title: "Download"
     url: /download/ 
+  - title: "Leaked"
+    url: /leaked/ 
