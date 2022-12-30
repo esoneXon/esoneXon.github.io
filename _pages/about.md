@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "My Personal Web"
 excerpt: "Nothing"
 author_profile: true
 redirect_from: 
@@ -23,6 +22,6 @@ redirect_from:
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
   <a href="https://esonexon.github.io/download" alt="Cynidzo">
-    <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" /></a>
 </p>
   
