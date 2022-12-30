@@ -181,7 +181,7 @@ collections:
   leaked:
     output: true
     permalink: /:collection/:path/
-  wantYouKnow:
+  wantToKnow:
     output: true
     permalink: /:collection/:path/
 
@@ -226,7 +226,7 @@ defaults:
   # _wantYouKnow
   - scope:
       path: ""
-      type: wantYouKnow
+      type: wantToKnow
     values:
       layout: single
       author_profile: true
