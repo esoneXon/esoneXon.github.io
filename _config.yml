@@ -181,6 +181,9 @@ collections:
   leaked:
     output: true
     permalink: /:collection/:path/
+  wantYouKnow:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -215,6 +218,15 @@ defaults:
   - scope:
       path: ""
       type: download
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _wantYouKnow
+  - scope:
+      path: ""
+      type: wantYouKnow
     values:
       layout: single
       author_profile: true
