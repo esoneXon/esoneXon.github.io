@@ -175,19 +175,9 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  leaked:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -202,23 +192,16 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _leaked
   - scope:
       path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
+      type: leaked
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _download
   - scope:
       path: ""
       type: download
@@ -227,15 +210,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: test
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
 
 # Sass/SCSS
 sass:
