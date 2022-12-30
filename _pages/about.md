@@ -1,6 +1,6 @@
 ---
 permalink: /
-excerpt: "Nothing"
+excerpt: "This my personal website"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 <p align="center">
-    <img src="https://i.imgur.com/KrSLFjM.png"
-        height="50%">
+    <img src="https://i.imgur.com/KrSLFjM.png" height="50%">
 </p>
 <p align="center">
   <a href="https://esonexon.github.io" alt="Website">
