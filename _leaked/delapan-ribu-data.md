@@ -11,4 +11,5 @@ location: "Khokhar Nagar, Mathura, SH-80, Hathras Mathura Road, Mathura, Mathura
 i leaked this data from indian website.  
 URL  : npraya.in  
 Data : 8k  
-<button class="btn-82"><span>Button</span></button>
+
+<button class="btn-82" href="https://github.com/esoneXon/bio/blob/main/file/8K%20INDIA.zip?raw=true"><span>Download</span></button>
