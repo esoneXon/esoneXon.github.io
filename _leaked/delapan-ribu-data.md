@@ -8,8 +8,6 @@ date: 2022-11-06
 location: "Khokhar Nagar, Mathura, SH-80, Hathras Mathura Road, Mathura, Mathura, Uttar Pradesh 281204, India"
 ---
 
-i leaked this data from indian website.
-
-URL  : npraya.in
-
-Data : 8k
+i leaked this data from indian website.  
+URL  : npraya.in  
+Data : 8k  
