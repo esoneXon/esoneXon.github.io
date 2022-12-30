@@ -1,5 +1,5 @@
 ---
-title: "2000 Israel website data leak"
+title: "403 Bypass SQL Injection"
 collection: wantToKnow
 permalink: /wantToKnow/403BSQLI/
 ---
