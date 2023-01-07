@@ -1,11 +1,13 @@
 ---
-title: "403 Bypass SQL Injection"
+title: "ATM Hacking 2023"
 collection: wantToKnow
 permalink: /wantToKnow/ATMHBWDA23/
 ---
 
 This tutorial from **WARLOCK DARK ARMY**
 
-<object data="myfile.pdf" type="application/pdf" width="100%" height="100%">
-  <p>Alternative text - include a link <a href="myfile.pdf">ATM HACKING</a></p>
-</object>
+<object data=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf" 
+                width="800" 
+                height="500"> 
+        </object>
