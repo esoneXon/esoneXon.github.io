@@ -13,5 +13,5 @@ This tutorial from **WARLOCK DARK ARMY**
         </object>
 
 <video width="100%" controls>
-  <source src="video_2023-01-08_00-51-01.mp4" type="video/mp4">
+  <source src="/assets/file/video_2023-01-08_00-51-01.mp4" type="video/mp4">
 </video>
