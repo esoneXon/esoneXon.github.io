@@ -7,7 +7,7 @@ permalink: /wantToKnow/ATMHBWDA23/
 This tutorial from **WARLOCK DARK ARMY**
 
 <object data=
-"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf" 
+"/assets/file/ATM HACKING.pdf" 
                 width="800" 
                 height="500"> 
         </object>
