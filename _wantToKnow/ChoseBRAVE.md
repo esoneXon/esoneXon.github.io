@@ -19,4 +19,4 @@ Sudah 2 Tahun lebih penggunaan ya terasa nyaman, ngak ngelag atau layar biru saa
 
 WEBSITE bisa liat dibawah atau <a href="https://brave.com/id/">Klik Ini</a>
 
-<iframe src="https://brave.com/id/" width="100%" heigth="80%"></iframe>
+<iframe src="https://brave.com/id/" width="100%" heigth="300px"></iframe>
