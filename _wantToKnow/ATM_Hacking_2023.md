@@ -2,6 +2,12 @@
 title: "ATM Hacking 2023"
 collection: wantToKnow
 permalink: /wantToKnow/ATMHBWDA23/
+tags:
+  - ATM
+  - Carding
+  - Hacking
+  - WDA
+  - WARLOCK DARK ARMY
 ---
 
 This tutorial from **WARLOCK DARK ARMY**
