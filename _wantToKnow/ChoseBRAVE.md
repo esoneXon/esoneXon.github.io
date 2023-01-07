@@ -15,4 +15,4 @@ Assalamualaikum, kebanyakan pengguna laptop apalagi yang masih baru pasti lebih 
 
 WEBSITE bisa liat dibawah atau <a href="https://brave.com/id/">Klik Ini</a>
 
-<iframe src="https://brave.com/id/"></iframe>
+<iframe src="https://brave.com/id/" width="100%"></iframe>
