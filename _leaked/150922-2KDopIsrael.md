@@ -5,7 +5,7 @@ type: "#opisrael"
 permalink: /leaked/opisrael/two-thousand-israel-data
 venue: "Petah Tikva"
 date: 2022-09-15
-excerpt: "Leaked in #OpIsrael by Esone<br/><img src='/images/kuzi.png' style='width:50%;heigth:50%;'>"
+excerpt: "Leaked in #OpIsrael by Esone<br/><img src='/images/kuzi.png' style='width:50%;heigth:50%;border-radius: 50%;'>"
 location: "Petah Tikva, Israel"
 tags:
   - opisrael
