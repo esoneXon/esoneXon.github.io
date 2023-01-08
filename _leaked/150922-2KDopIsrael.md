@@ -1,5 +1,5 @@
 ---
-title: "2000 Israel website data leak"
+title: "2000 Israel Website Data Leak"
 collection: leaked
 type: "#opisrael"
 permalink: /leaked/opisrael/two-thousand-israel-data
@@ -8,7 +8,7 @@ date: 2022-09-15
 excerpt: "Leaked in #OpIsrael by Esone<br/><img src='/images/kuzi.png' style='width:50%;heigth:50%;'>"
 location: "Petah Tikva, Israel"
 tags:
-  - #opisrael
+  - opisrael
   - israel
   - Petah Tikva
   - Leaked
