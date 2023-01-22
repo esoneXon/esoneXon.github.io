@@ -1,3 +1,13 @@
+---
+title: "🔥Hacking-Wordpress 🔥"
+collection: wantToKnow
+permalink: /wantToKnow/WordPress_Hacking/
+tags:
+  - WordPress
+  - Web
+  - Hacking
+---
+
 Basic Wordpress and Wordpress Structure
 
 fireWordpress Structure fire
