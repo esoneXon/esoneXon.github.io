@@ -10,21 +10,21 @@ tags:
   - access point
 ---
 
-Assalamualaikum, ini adalah tips atau trik untuk mendapatkan akses wifi sekolah yang voucheran secara gratis.  
+Assalamualaikum, ini adalah tips atau trik untuk mendapatkan akses wifi sekolah yang voucheran secara gratis.    
 
-Maksud saya disini adalah mendapatkan akses internet dari induk modem wifi bukan mendapatkan voucher gratis.  
+Maksud saya disini adalah mendapatkan akses internet dari induk modem wifi bukan mendapatkan voucher gratis.    
 
-Di sebuah sekolah untuk memperluas jaringan, admin it menggunakan access point untuk meluaskan jaringan wifinya. Ini bisa terlihat di setiap gedung terdapat sebuah benda di dinding atau atap yang tersambung pada kabel LAN.  
+Di sebuah sekolah untuk memperluas jaringan, admin it menggunakan access point untuk meluaskan jaringan wifinya. Ini bisa terlihat di setiap gedung terdapat sebuah benda di dinding atau atap yang tersambung pada kabel LAN.    
 
-yang perlu kita lakukan adalah mengikuti jalur kabel LAN tersebut hingga menemui modem atau pusat dari keseluruhan alat access point.
+yang perlu kita lakukan adalah mengikuti jalur kabel LAN tersebut hingga menemui modem atau pusat dari keseluruhan alat access point.    
 
 Mengapa ? access point itu bisa mendapatkan internet karena disambungkannya kabel LAN dari port LAN pada modem wifi (seperti ZTE, HUAWEI, dll). sehingga admin IT hanya perlu menyambungkan kabel LAN tersebut tanpa harus berhubungan dengan settingan modem wifi nya.
-
-Di Indonesia, setiap modem wifi terdapat user dan password default yang terdapat pada bagian belakang modem.
-
-Kalian bisa mencoba hidupkan mode wifi nya/tekan tombol wifi pada modem, lalu sambungkan user dan pass defaultnya.
+    
+Di Indonesia, setiap modem wifi terdapat user dan password default yang terdapat pada bagian belakang modem.    
+    
+Kalian bisa mencoba hidupkan mode wifi nya/tekan tombol wifi pada modem, lalu sambungkan user dan pass defaultnya.    
 
 jika sudah dihidupkan dan wifi atau nama wifi dari modem tidak seperti defaultnya, kalian bisa reset modem wifi tersebut dengan menekan tombol yang ada pada modem wifi. tidak perlu takut untuk mereset karena access point tidak ada hubungannya dengan settingan pada modem wifi.
-
+    
 
 NOTE :: biasanya posisi modem dan alat access pointnya berdampingan, kalian harus pastikan bahwa access point tersebut hanya mengandalkan kabel LAN yang terhubung ke modem dengan mencoba mematikan power dari access point ataupun modem wifinya.
