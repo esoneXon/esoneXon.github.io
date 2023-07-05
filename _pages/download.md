@@ -4,7 +4,7 @@ title: "CYNIDZO - Aplikasi"
 permalink: /download/
 author_profile: true
 ---
-<p style="color:red"> DISCONTINUED - DIHENTIKAN <p>
+<p style="color:red;size:100px"> DISCONTINUED - DIHENTIKAN <p>
 <p> <a href="#"><img style="width:100%;height:100%" title="Cyber Unganidzo by Esone" src="https://raw.githubusercontent.com/esoneXon/cyberUnganidzo/main/update.jpg"> </a> </p>
 
 # Welcome
