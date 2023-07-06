@@ -232,7 +232,7 @@ defaults:
   # _linktree
   - scope:
       path: ""
-      type: LinkTree🌲
+      type: linkTree
     values:
       layout: single
       author_profile: false
