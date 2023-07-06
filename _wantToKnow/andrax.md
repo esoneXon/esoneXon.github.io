@@ -16,7 +16,7 @@ Link Download (Expired 31 days) (from 060723)
 <br>
 <button class="btn-82"><a href="https://anonymfile.com/2q54l/andrxv6rpart1-2.rar"><span>PART 1</span></a></button>
 <br>
-<button class="btn-82"><a href="https://anonfiles.com/KbU6Ja7dy2"><span>PART 2</span></a></button>
+<button class="btn-82"><a href="https://gofile.cc/3dga/andrxv6rpart2-2.rar"><span>PART 2</span></a></button>
 <br>
 
 How to extract :
