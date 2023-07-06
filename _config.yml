@@ -229,6 +229,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _linktree
+  - scope:
+      path: ""
+      type: LinkTree🌲
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      comments: false
 
 # Sass/SCSS
 sass:
