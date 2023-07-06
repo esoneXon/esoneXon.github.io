@@ -13,10 +13,9 @@ This is Tools for hacking on android with root
 
 Link Download (Expired 31 days) (from 060723)
 <br>
-<button class="btn-82"><a href="https://anonymfile.com/2q54l/andrxv6rpart1-2.rar"><span>Part 1</span></a></button>
+<button class="btn-82"><a href="https://anonymfile.com/2q54l/andrxv6rpart1-2.rar"><span>PART 1</span></a></button>
 <br>
-<br>
-<button class="btn-82"><a href="https://anonfiles.com/KbU6Ja7dy2"><span>Part 2</span></a></button>
+<button class="btn-82"><a href="https://anonfiles.com/KbU6Ja7dy2"><span>PART 2</span></a></button>
 <br>
 
 How to extract :
