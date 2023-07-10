@@ -26,5 +26,5 @@ Ext  : ZIP
 you can login in web with account on "users" file  
 
 <br>
-<button class="btn-82"><a href="https://github.com/esoneXon/bio/blob/main/file/8K%20INDIA.zip?raw=true"><span>Download</span></a></button>
+<button class="btn-82"><a href="https://filebin.net/r4jycqkhl57xvct0/www.laraonline.se__1_.zip"><span>Download</span></a></button>
 <br>
