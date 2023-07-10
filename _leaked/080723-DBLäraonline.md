@@ -15,7 +15,7 @@ tags:
 ---
 
 i leaked this data from sweden website.  
-URL  : <a href="https://laraonline.se">Go to website</a> 
+URL  : <a href="https://laraonline.se">Go to website</a>  
 Data : All Database  
       - User  
       - Admin  
